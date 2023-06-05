@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+
+:root{
+    --color-Primary: #e6e3e8;
+    --color-Secondary: #1a171c;
+    --color-Primary-Button: #7e58e4;
+    --color-Secondary-Button: #0a090b;
+    --color-Accent: #8b8093;
+}
+
+html, body{
+  font-family: inter;
+  margin: 0;
+  color: var(--color-Primary);
+  background-color: var(--color-Secondary);
+  scroll-behavior: smooth;
+}
+
+/* Index Page */
+
+.parallax-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(imgs/yevhenii-shalukhin-nightmare-room-animation-full-hd.gif);
+  background-position: center;
+  background-size: cover;
+  color: var(--color-Primary);
+  row-gap: 4rem;
+  text-align: center;
+  box-shadow: inset 200px 150px 400px #000000, inset -200px -150px 400px #000000;
+}
+
+.Main-button{
+  position: absolute;
+  top: 520px;
+}
+
+
+
+.buffer {
+  width: 100%;
+  min-height: 40vh;
+  background-color: var(--color);
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 6rem 0;
+  background-image: url("imgs/IMG_2664.jpg");
+  gap: 1.6em;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+#card-text {
+  max-width: 52ch;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  line-height: 1.5;
+  color: var(--color-Secondary);
+  text-align: center;
+}
+
+/* Default Button */
+
+a {
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  background-color: var(--color-Primary-Button);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 2em;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-Secondary);
+}
+
+.card {
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-radius: 0.5em;
+  background-color: white;
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+
+
+.box{
+  background-color: var(--color-Primary);
+  width: 960px;
+  height: 750px;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 2%;
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 63%);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 11rem;
+}
+
+form h3{
+  margin-bottom: 20px;
+}
+
+form input, form textarea, select{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  width: 500px;
+  font-family: inherit;
+  resize: none;
+}
+
+select{
+  width: 540px;
+  margin-bottom: 25px;
+}
+
+form button{
+  padding: 15px;
+  background: var(--color-Primary-Button);
+  color: var(--color-Primary);
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.3em;
+  width: 150px;
+  margin: 20px auto 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+
+
+.navbar{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 3px rgb(139 128 147 / 10%), 0 2px 2px rgb(139 128 147 / 6%),
+    0 0 2px rgb(139 128 147 / 7%);
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.nav-link{
+  background-color: var(--color-Secondary);
+}
+
+#nav-name{
+font-size: 2rem;
+}
+
+
+.background-container{
+  background-image: url(imgs/216945275.jpg);
+  width: 1920px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 200px 150px 400px #000000, inset -200px -150px 400px #000000;
+}
+
+
+.alien{
+  max-width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.question-item{
+  box-sizing: border-box;
+  background-color: #283042;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: .5rem 2px .5rem rgb(0, 0, 0, 0.1);
+}
+
+.faq{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-faq{
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  padding: 0 1.5rem;
+}
+
+.question-link{
+width: 75%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color:#283042;
+padding: 2rem;
+font-size: 16px;
+}
+
+.remove, .add{
+  color: var(--color-Primary);
+  padding: 0.5rem;
+  position: absolute;
+}
+
+.remove{
+  display: none;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+  transition: max-height 650ms;
+}
+
+
+.answer::before{
+  content: "";
+  position: absolute;
+  width: .6rem;
+  height: 90%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p{
+  font: 1.4rem;
+  color: rgba(255, 2555, 255, 0.6);
+  padding: 2rem;
+  text-transform: none;
+}
+
+.question-item:target .answer{
+  max-height: 20rem;
+}
+
+.question-item:target .question-link .add{
+  display: none;
+}
+
+.question-item:target .question-link .remove{
+  display: block;
+}
