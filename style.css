@@ -145,6 +145,8 @@ form input, form textarea, select{
 select{
   width: 540px;
   margin-bottom: 25px;
+  font-size: 16px;
+  color: gray;
 }
 
 form button{
@@ -199,12 +201,50 @@ font-size: 2rem;
 
 
 .background-container{
-  background-image: url(imgs/216945275.jpg);
-  width: 1920px;
-  height: 1000px;
   display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
+  background-image: url(imgs/G5Z8.gif);
+  background-position: center;
+  background-size: cover;
+  color: var(--color-Primary);
+  row-gap: 4rem;
+  text-align: center;
+  box-shadow: inset 200px 150px 400px #000000, inset -200px -150px 400px #000000;
+}
+
+.background-container-faq{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(imgs/stary.gif);
+  background-position: center;
+  background-size: cover;
+  color: var(--color-Primary);
+  row-gap: 4rem;
+  text-align: center;
+  box-shadow: inset 200px 150px 400px #000000, inset -200px -150px 400px #000000;
+}
+
+.background-container-about-us{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(imgs/Rain-Oc-GIF-Find-Share-on-GIPHY.gif);
+  background-position: center;
+  background-size: cover;
+  color: var(--color-Primary);
+  row-gap: 4rem;
+  text-align: center;
   box-shadow: inset 200px 150px 400px #000000, inset -200px -150px 400px #000000;
 }
 
@@ -212,10 +252,33 @@ font-size: 2rem;
 .alien{
   max-width: 600px;
   height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  border: solid 20px white;
+  border-radius: 2%;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+
+}
+
+.grid-child{
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: var(--color-Primary);
+  color: var(--color-Secondary-Button);
+  border-radius: 2%;
+  max-width: 600px;
+  box-shadow: .5rem 2px .5rem rgb(0, 0, 0, 0.6);
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
 
 
 .question-item{
