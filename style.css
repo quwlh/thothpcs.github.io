@@ -36,8 +36,10 @@ html, body{
 }
 
 .Main-button{
-  position: absolute;
-  top: 520px;
+  width: 200px;
+  font-size: 1.1rem;
+  background: -webkit-linear-gradient(135deg, hsla(256, 72%, 62%, 1) 0%, hsla(261, 31%, 18%, 1) 100%);
+
 }
 
 
@@ -77,7 +79,7 @@ h1 {
 a {
   display: inline-block;
   padding: 1em 2em;
-  border-radius: 0.3em;
+  border-radius: 0.7em;
   background-color: var(--color-Primary-Button);
   color: white;
   font-size: 0.875rem;
@@ -110,7 +112,7 @@ h3 {
 .box{
   background-color: var(--color-Primary);
   width: 960px;
-  height: 750px;
+  height: 800px;
   margin: auto;
   margin-top: 5em;
   border-radius: 2%;
@@ -252,28 +254,27 @@ font-size: 2rem;
 .alien{
   max-width: 600px;
   height: 500px;
-  border: solid 20px white;
   border-radius: 2%;
+  margin: 2rem;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
-
+.about-us-container{
+  background-color: var(--color-Secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
-.grid-child{
-  margin: 0 auto;
-  margin-top: 10%;
-  background-color: var(--color-Primary);
-  color: var(--color-Secondary-Button);
-  border-radius: 2%;
-  max-width: 600px;
-  box-shadow: .5rem 2px .5rem rgb(0, 0, 0, 0.6);
-  margin-bottom: 5%;
+.about-us-container-2{
+  background-color: #212838;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
 }
-
 
 
 
